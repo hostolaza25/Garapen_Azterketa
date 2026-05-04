@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3POO_5</name>
+    </assembly>
+    <members>
+        <member name="T:_3POO_5.Program">
+            <summary>
+            Porra programa kudeatzen duen klase nagusia.
+            </summary>
+        </member>
+        <member name="F:_3POO_5.Program.lp">
+            <summary>
+            Porra guztien zerrenda gordetzen duen aldagaia.
+            </summary>
+        </member>
+        <member name="M:_3POO_5.Program.Main">
+            <summary>
+            Aplikazioaren sarrera nagusia. Menua erakutsi eta aukerak kudeatzen ditu.
+            </summary>
+        </member>
+        <member name="M:_3POO_5.Program.SartuEmaitzak">
+            <summary>
+            Erabiltzaileari eguneko emaitzak eskatzen dizkio (finalistak, irabazlea eta golak).
+            </summary>
+        </member>
+        <member name="M:_3POO_5.Program.lortugolak">
+            <summary>
+            Sartutako gol kopurua baieztatzen du eta itzultzen du.
+            </summary>
+            <returns>Gaurko gol kopuru osoa (int).</returns>
+        </member>
+        <member name="M:_3POO_5.Program.IrabazleeiPuntuEguneraketa(System.String)">
+            <summary>
+            Irabazlea asmatu duten partaideei puntuak eguneratzen dizkie.
+            </summary>
+            <param name="ir">Gaurko irabazlearen izena.</param>
+        </member>
+        <member name="M:_3POO_5.Program.FinalisteiPuntuEguneraketa(System.String,System.String)">
+            <summary>
+            Bi finalistak asmatu dituzten partaideei puntuak eguneratzen dizkie.
+            </summary>
+            <param name="fi">Lehen finalista.</param>
+            <param name="ir">Bigarren finalista.</param>
+        </member>
+        <member name="M:_3POO_5.Program.GoleatzaileenPuntuEguneraketa(System.String)">
+            <summary>
+            Goleatzailea asmatu duten partaideei puntuak eguneratzen dizkie.
+            </summary>
+            <param name="gol">Gola sartu duen jokalariaren izena.</param>
+        </member>
+        <member name="M:_3POO_5.Program.FitxategiaIrakurri">
+            <summary>
+            "porrak.txt" fitxategitik datuak irakurtzen ditu eta zerrendan kargatzen ditu.
+            </summary>
+        </member>
+        <member name="M:_3POO_5.Program.FitxategiraPuntuak">
+            <summary>
+            Zerrendako porra eta puntuazio guztiak "porrak.txt" fitxategian gordetzen ditu.
+            </summary>
+        </member>
+        <member name="M:_3POO_5.Program.InprimatuPorrak">
+            <summary>
+            Egungo porra guztien egoera kontsolatik inprimatzen du.
+            </summary>
+        </member>
+    </members>
+</doc>
